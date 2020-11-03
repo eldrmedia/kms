@@ -1161,7 +1161,7 @@ $heading-block-font-size-h4:			1.25rem;
 $heading-block-font-weight:				700;
 $heading-block-font-spacing:			1px;
 $heading-block-font-color:				darken($body-color, 6.67%);
-$heading-block-font-transform:			uppercase;
+$heading-block-font-transform:			capitalize;
 $heading-block-center-container:		700px;
 $title-block-border-size:				40px;
 $heading-block-border:					2px solid $body-color;
