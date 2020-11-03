@@ -1154,8 +1154,8 @@ $title-block-subtitle-color:			lighten($title-block-color, 6.67%);
 
 
 // Heading Title Block
-$heading-block-font-size-h1:			32px;
-$heading-block-font-size-h2:			30px;
+$heading-block-font-size-h1:			$h1-font-size;
+$heading-block-font-size-h2:			$h2-font-size;
 $heading-block-font-size-h3:			1.75rem;
 $heading-block-font-size-h4:			1.25rem;
 $heading-block-font-weight:				700;
