@@ -1166,3 +1166,25 @@ $heading-block-center-container:		700px;
 $title-block-border-size:				40px;
 $heading-block-border:					2px solid $body-color;
 $heading-block-span-color:				darken($body-color, 20%);
+
+
+//-------------------- Featured Box -------------------- //
+
+$featured-box-icon:						4rem;
+$featured-box-padding-x: 				0.75rem;
+$featured-box-icon-size:				1.75rem;
+$featured-box-font-size:				$font-size-base;
+$featured-box-font-color:				darken($body-color, 6.67%);
+$featured-box-font-weight:				600;
+$featured-box-font-tt:					uppercase;
+
+$featured-box-outline-border:			1px;
+$featured-box-outline-padding:			0.25rem;
+
+$featured-box-rounded:					3px;
+
+$featured-box-bg-light:					darken($body-color, 3.92);
+$featured-box-bg-dark:					lighten($dark, 1.96);
+
+$featured-box-plain-font-size:			28px;
+$featured-box-plain-icon-size:			3rem;
