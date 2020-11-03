@@ -54,8 +54,6 @@ $before_heading-prefix: before-heading;
 	h3,
 	h4 {
 		margin-bottom: 0;
-		font-weight: $heading-block-font-weight;
-		text-transform: $heading-block-font-transform;
 		letter-spacing: $heading-block-font-spacing;
 		color: $heading-block-font-color;
 	}
