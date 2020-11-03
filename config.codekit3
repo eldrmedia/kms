@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/dist/css/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -530,6 +538,16 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/scss/bootstrap-grid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/bootstrap-grid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/scss/bootstrap-grid.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -542,6 +560,16 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/scss/bootstrap-reboot.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/bootstrap-reboot-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/scss/bootstrap-reboot.scss": {
 		"aP": 0,
