@@ -1142,3 +1142,27 @@ $user-selects: all, auto, none !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+
+// Title Block
+$title-block-padding:					20px;
+$title-block-color:						$body-color;
+$title-block-border:					7px;
+$title-block-border-color:				$primary;
+
+$title-block-subtitle-color:			lighten($title-block-color, 6.67%);
+
+
+// Heading Title Block
+$heading-block-font-size-h1:			32px;
+$heading-block-font-size-h2:			30px;
+$heading-block-font-size-h3:			1.75rem;
+$heading-block-font-size-h4:			1.25rem;
+$heading-block-font-weight:				700;
+$heading-block-font-spacing:			1px;
+$heading-block-font-color:				darken($body-color, 6.67%);
+$heading-block-font-transform:			uppercase;
+$heading-block-center-container:		700px;
+$title-block-border-size:				40px;
+$heading-block-border:					2px solid $body-color;
+$heading-block-span-color:				darken($body-color, 20%);

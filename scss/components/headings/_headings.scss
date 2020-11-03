@@ -1,0 +1,113 @@
+// -----------------------------------------------------------------------------------
+//	Shortcodes: headings.scss
+// -----------------------------------------------------------------------------------
+
+$titular_title-prefix: titular;
+$title_block-prefix: title-block;
+$heading_block-prefix: heading-block;
+$emphasis_title-prefix: emphasis-title;
+$fancy_title-prefix: fancy-title;
+$before_heading-prefix: before-heading;
+
+
+
+
+// Block Titles
+// -----------------------------------------------------------------
+.#{$title-block-prefix} {
+	padding: 2px 0 3px $title-block-padding;
+	border-left: $title-block-border solid $title-block-border-color;
+	margin-bottom: 30px;
+	&-right {
+		padding: 2px $title-block-padding 3px 0;
+		border-left: 0;
+		border-right: $title-block-border solid $title-block-border-color;
+		text-align: right;
+	}
+	h1,
+	h2,
+	h3,
+	h4 { margin-bottom: 0; }
+
+	> span {
+		display: block;
+		margin-top: 4px;
+		color: $title-block-subtitle-color;
+		font-weight: 300;
+	}
+
+	h1 + span,
+	h2 + span { font-size: 1.25rem; }
+	h3 + span { font-size: 1.125rem; }
+	h4 + span { font-size: 0.9375rem; }
+
+}
+
+
+// Heading Block - with Subtitle
+// -----------------------------------------------------------------//
+
+.#{$heading_block-prefix} {
+	margin-bottom: 50px;
+	h1,
+	h2,
+	h3,
+	h4 {
+		margin-bottom: 0;
+		font-weight: $heading-block-font-weight;
+		text-transform: $heading-block-font-transform;
+		letter-spacing: $heading-block-font-spacing;
+		color: $heading-block-font-color;
+	}
+
+	h1 { font-size: $heading-block-font-size-h1; }
+	h2 { font-size: $heading-block-font-size-h2; }
+	h3 { font-size: $heading-block-font-size-h3; }
+	h4 { font-size: $heading-block-font-size-h4; }
+
+	> span:not(.#{$before_heading-prefix}) {
+		display: block;
+		margin-top: 10px;
+		font-weight: 300;
+		color: $heading-block-span-color;
+	}
+
+	.#{$before_heading-prefix} { margin-bottom: 7px; }
+
+	&.center > span,
+	&.text-center > span,
+	.center & > span,
+	.text-center & > span {
+		max-width: $heading-block-center-container;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h1 + span { font-size: round($heading-block-font-size-h1 / 1.33); }
+	h2 + span,
+	h3 + span,
+	h4 + span { font-size: round($heading-block-font-size-h2 / 1.5); }
+
+	&::after {
+		content: '';
+		display: block;
+		margin-top: 30px;
+		width: $title-block-border-size;
+		border-top: $heading-block-border;
+	}
+
+	.center &::after,
+	.text-center &::after,
+	&.center::after,
+	&.text-center::after { margin: 30px auto 0; }
+
+	.text-right &,
+	&.text-right,
+	&.title-right { direction: rtl; }
+
+	&.border-0::after,
+	&.border-bottom-0::after { display: none; }
+
+	&.border-color::after { border-color: $primary; }
+
+}
