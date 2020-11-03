@@ -94,7 +94,7 @@ $theme-colors: map-merge(
 $theme-color-interval:      8% !default;
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
-$yiq-contrasted-threshold:  255 !default;
+$yiq-contrasted-threshold:  150 !default;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
 $yiq-text-dark:             $gray-900 !default;
@@ -239,7 +239,7 @@ $line-height-sm:              1.5 !default;
 $border-width:                1px !default;
 $border-color:                $gray-300 !default;
 
-$border-radius:               .25rem !default;
+$border-radius:               0rem !default; //.25rem !default;
 $border-radius-lg:            .3rem !default;
 $border-radius-sm:            .2rem !default;
 
