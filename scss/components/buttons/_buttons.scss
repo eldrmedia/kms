@@ -13,7 +13,6 @@
                border-style: solid;
                border-width: 2px;
                border-image-slice: 1;
-               z-index: 1;                
           }
           span {
                position: relative;
@@ -22,6 +21,7 @@
 }
 
 .btn-primary:after {
+     z-index: -1;
 
      &.btn--outline {
           border-color: #0C3437;
@@ -37,6 +37,7 @@
 }
 
 .btn-secondary:after {
+     z-index: -1;
 
      &.btn--outline {
           border-color: #7F1A28;
