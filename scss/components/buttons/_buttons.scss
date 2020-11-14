@@ -23,11 +23,11 @@
 
 .btn-primary {
 
-     &.btn--outline {
+     &.btn--outline:after {
           border-color: #0C3437;
      }
 
-     &.btn--outline-gradient {
+     &.btn--outline-gradient:after {
           border-color: #F6C6CE;
           -moz-border-image: -moz-linear-gradient(top left, #F6C6CE 0%, #E994A0 100%);
           -webkit-border-image: -webkit-linear-gradient(top left, #F6C6CE 0%, #E994A0 100%);
@@ -38,11 +38,11 @@
 
 .btn-secondary {
 
-     &.btn--outline {
+     &.btn--outline:after {
           border-color: #7F1A28;
      }
 
-     &.btn--outline-gradient {
+     &.btn--outline-gradient:after {
           border-color: #F6C6CE;
           -moz-border-image: -moz-linear-gradient(top left, #F6C6CE 0%, #E994A0 100%);
           -webkit-border-image: -webkit-linear-gradient(top left, #F6C6CE 0%, #E994A0 100%);
