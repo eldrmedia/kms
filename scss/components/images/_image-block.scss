@@ -1,6 +1,7 @@
 .image-overlay-block {
 
      &__image-wrapper {
+          position: relative;
 
           img {
                position: relative;
