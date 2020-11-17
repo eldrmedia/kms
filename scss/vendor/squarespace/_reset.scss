@@ -1,4 +1,5 @@
-.page-section.section-height--medium:not(.content-collection):not(.gallery-section) {
+.page-section.section-height--medium:not(.content-collection):not(.gallery-section),
+.page-section.section-height--medium:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
 	min-height: 0;
 }
 .page-section.vertical-alignment--top:not(.content-collection):not(.gallery-section):not(.section-height--custom).section-height--medium>.content-wrapper {
@@ -9,6 +10,7 @@
 .sqs-layout:not(.sqs-editing) .sqs-block+.sqs-row .sqs-block:not(.float):last-child {
 	padding: 0;
 }
+
 
 .sqs-layout .sqs-row .sqs-block:first-child {
 	padding: 0 !important;
