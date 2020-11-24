@@ -41,9 +41,20 @@
 
    .sales-header__element-1 {
         position: absolute;
-        bottom: -20px;
+        bottom: -50px;
         right: -50px;
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
         z-index: 2;
+        opacity: .5;
    }
+
+   .sales-header__element-2 {
+     position: absolute;
+     top: -50px;
+     left: -50px;
+     width: 300px;
+     height: 300px;
+     z-index: 2;
+     opacity: .5;
+}
