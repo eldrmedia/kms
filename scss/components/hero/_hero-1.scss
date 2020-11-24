@@ -1,0 +1,49 @@
+.sales-header {
+     position: relative;
+     background-color: white;
+     height: 75vh;
+     min-height: 25rem;
+     width: 100%;
+     overflow: hidden;
+   }
+   
+   .sales-header video {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: 0;
+     -ms-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+   }
+   
+   .sales-header .container {
+     position: relative;
+     z-index: 3;
+   }
+   
+   .sales-header .sales-header__overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: #fff;
+     /*background-color: var(--kms-pink);*/
+     opacity: 0.9;
+     z-index: 1;
+   }
+
+   .sales-header__element-1 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 200px;
+        height: 200px;
+        z-index: 2;
+   }
