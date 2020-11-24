@@ -47,6 +47,11 @@
         height: 400px;
         z-index: 2;
         opacity: .5;
+        @include media-breakpoint-down(md) {
+          width: 250px;
+          height: 250px;
+        }
+
    }
 
    .sales-header__element-2 {
@@ -57,4 +62,8 @@
      height: 300px;
      z-index: 2;
      opacity: .5;
+     @include media-breakpoint-down(md) {
+          width: 250px;
+          height: 250px;
+        }
 }
